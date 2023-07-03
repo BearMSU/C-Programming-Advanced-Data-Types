@@ -59,3 +59,11 @@ struct student *append(struct student *end, struct student *newStudptr){
     end = newStudptr;
     return(end);
 }
+
+// Course Solution version of Function struct student *append
+/*
+struct student * append(struct student * end, struct student * newStudptr) {
+    end->next = newStudptr;
+    return(end->next);
+}
+*/
