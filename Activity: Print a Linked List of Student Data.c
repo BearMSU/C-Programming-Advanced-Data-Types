@@ -64,7 +64,6 @@ struct student *append(struct student *end, struct student *newStudptr){
     return(end);
 }
 void printStudents(struct student *start){
-    int i = 0;
     struct student *ptr = start;
     while (ptr != NULL){
         printf("%s is %d years old.\n", ptr->name, ptr->age);
